@@ -1,0 +1,53 @@
+---
+title: "Managing Human Capital Live Case"
+author: HUID71429180
+output: pdf_document 
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(gt)
+
+```
+
+**Amy Weisenbach** was at an award show when she “knew it was time” to leave her job as Vice President of Marketing at Wilson Sporting Goods. As award recipients gave their acceptance speeches, Weisenbach saw other people doing the work that she wanted to do, but couldn’t, at Wilson. Her decision was the culmination of over a year of dissatisfaction. Weisenbach had been recruited to Wilson three years earlier as part of an effort to reinvigorate the brand and was excited to be part of Wilson’s “transformational change.” However, over time it became clear that Wilson’s parent company was not similarly invested in Wilson. At a parent company meeting, Weisenbach recalled seeing Wilson down in the corner of one slide, labeled “harvest for cash.” Although Weisenbach “saw the writing on the wall” early on, she was working on enough interesting projects to stay for over a year. But by early December of 2016 it was time for her to move on. 
+
+### *Push: When I feel like I'm on my own, ignored and not supported at work for a long time.*
+
+Weisenbach had a supportive immediate team at Wilson, but the parent company’s lack of investment in the brand led to a work experience that Weisenbach described as “death by 1000 cuts.” She explained, “everything was an uphill battle, everything was underfunded, we were trying to do Nike-level marketing with a team that was too small and none of the paid marketing resources that you really need to do that.” The experience of being under-resourced and unsupported so impacted Weisenbach that it became a main factor as she considered potential jobs after Wilson. She was determined not to take another job at a company that didn’t have an established marketing team and track record of investing in marketing. 
+
+### *Pull: So I have a supportive boss who guides and provides me constructive feedback.*
+
+Interestingly, the pull of having a supportive boss was strong enough to help Weisenbach set aside her fear of working for a company that hadn’t done brand marketing before. During her job search, Weisenbach had a conversation with David Rubin, a former boss from her time at Unilever who now worked for the New York Times. Weisenbach described the Times’ lack of experience in brand marketing as “a red flag,” but she “trusted him [Rubin] enough to keep an open mind” about working there. One of the reasons that she ultimately accepted a job with the Times was that “it checked one really important box on my list: working for a great boss.” 
+
+&nbsp;
+
+**Whitney Petersmeyer** was on maternity leave when she was asked to take on the role of Senior Vice President for National Development at Teach for America (TFA). Her first reaction was, “You all are nuts!” Petersmeyer had been at TFA for two years, first as a HBS Leadership Fellow in the President’s office, and then as Vice President for Regional Growth Strategy and Development. She was committed to TFA’s mission and had a strong and supportive network amongst TFA’s executives. Still, Petersmeyer had no experience with or particular interest in fundraising. Furthermore, taking on the SVP role would require leaving behind a thriving team to work with a part of the organization that had developed a “sad" culture after first a long-time leader and then their replacement departed in rapid succession. 
+
+### *Push: When a trusted advisor/mentor/previous boss guides me in my next step.*
+
+Petersmeyer’ s mentors at TFA played a crucial role in making her feel comfortable taking on a different role in the organization. Petersmeyer had significant doubts about taking on the SVP role and recalled that the move felt "very scary." However, TFA leadership restructured the role to play to Petersmeyer’s strengths, and one of her mentors told her, “I am going to teach you everything you need to do this job. You won’t fail.” This, combined with her commitment to TFA, allowed Petersmeyer to accept the new position despite her initial misgivings. 
+
+### *Novel Pull: So I can do something meaningful.*
+
+Wisenbach, Petersmeyer, and the third alumni I interviewed, Kurt Summers, all were pulled to their new position by their desire to do something meaningful. Weisenbach felt powerless after the 2016 elections, and had “a strong urge to do something in the world that mattered.” Similarly, Summers was attracted to the position of Treasurer of the City of Chicago because he could have impact at a larger scale and breath in this role than he had in his previous job. Summers’ commitment to doing something meaningful is further evidenced by the fact that he took a significant pay cut to do so. Finally, Petersmeyer ultimately accepted the promotion she was offered because she was “deeply committed to TFA” and “convinced that she could make a difference” in her new role. 
+
+## Recommendations and Learning
+
+
+### *Ask for what you deserve.*
+
+As she left Wilson, Weisenbach negotiated six months of severance pay so that she could look for a new job with the aid of a career coach (also provided by Wilson). Similarly, Summers spoke with the leadership at his firm to make sure that he was appropriately compensated for the value he had created at that organization. Asking for something above or different than what is offered can be especially difficult for minorities like Weisenbach (a woman) and Summers (a black man). But a “war for talent” market, their organizations likely had a strong incentive to maintain good relationships with talented people that might someday return to or refer others to their former organizations. 
+
+### *Cultivate mentors and sponsors.*
+
+Petersmeyer’s career illustrates the importance of mentors and sponsors. On at least two occasions, her sponsors maneuvered her into stretch positions that accelerated her development. During these transitions, her mentors helped her feel comfortable enough to take on an unfamiliar role. Petersmeyer (and TFA) benefitted from these promotions, but she noted two potential downsides of her particular career path. First, Petersmeyer “skipped turns” in a typical leader’s development, which made it difficult “not to carry with [her] the implication of those skips” as her career progressed. Furthermore, Petersmeyer noted that people might be less likely to take bets on minorities in the way that they took bets on a white woman like her. 
+
+### *Get feedback from trusted advisors.* 
+
+Petersmeyer, Weisenbach, and Summers all solicited feedback from trusted advisors at various points in their careers. Weisenbach relied on a career coach and an HBS alumni group dedicated to candid career conversations during her transition from Wilson to the New York Times. Similarly, Summers went on a retreat with his wife to consider the pros and cons of accepting the role of Treasurer. Finally, Petersmeyer noted that only with serious coaching did she truly understand how the "skipped turns" mentioned above impacted her and her management style. These coaches and members of each MHC alumni's "personal board of directors" allowed them to make intentional career decisions. 
+

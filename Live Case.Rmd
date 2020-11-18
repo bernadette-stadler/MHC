@@ -1,0 +1,43 @@
+---
+title: ""
+output: pdf_document
+classoption: landscape
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+library(janitor)
+library(gt)
+```
+
+Appendix: Summary of pre-existing pushes and pulls present for each alumn
+
+```{r data, echo = FALSE}
+data <- read_excel("Data.xlsx")
+
+pushes <- data %>% filter(category == "Push") %>% select(description:'Kurt Summers') 
+
+pulls <- data %>% filter(category == "Pull") %>% select(description:'Kurt Summers') 
+```
+
+```{r graphs, echo=FALSE}
+
+gt(pushes) %>% 
+  fmt_missing(columns =2:4, missing_text = " ") %>% 
+  cols_label(
+    description = "Pre-exisiting Pushes"
+  ) %>%
+   cols_width(vars(description) ~ px(500), 
+              everything() ~ px(100))
+
+ gt(pulls) %>% 
+  fmt_missing(columns =2:4, missing_text = " ") %>% 
+  cols_label(
+    description = "Pre-exisiting Pulls"
+  ) %>%
+   cols_width(vars(description) ~ px(500), 
+              everything() ~ px(100))
+
+```
